@@ -3,7 +3,7 @@ import speech_recognition as sr
 from pydub import AudioSegment
 
 def convert_m4a_to_wav(m4a_file, wav_file):
-    audio = AudioSegment.from_file(m4a_file, format="m4a")
+    audio = AudioSegment.from_file(m4a_file, format="m4a") #https://github.com/jiaaro/pydub
     audio = audio.set_frame_rate(16000).set_channels(1).set_sample_width(2)
     audio.export(wav_file, format="wav")
 
