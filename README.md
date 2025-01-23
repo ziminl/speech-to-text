@@ -3,8 +3,10 @@ python stt
 
 android saves voicecall as m4a it is designed to make it as script.
 
-use thisone 
+use this one 
 >python idea/main.py
+
+
 #docs
 
 
